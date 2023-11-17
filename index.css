@@ -1,6 +1,18 @@
 body{
     background-color: black;
 }
+
+@media screen and (max-width:768px) {
+    body{
+        font-size: small;
+    }
+}
+@media screen and (max-width:1360px) {
+    body{
+        font-size: small;
+    }
+}
+
 .titulo{
     color: yellow;
     font-family: cursive;
@@ -89,3 +101,4 @@ body{
     background-color: darkgreen;
     color: yellow;
 }
+
