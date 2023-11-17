@@ -2,20 +2,6 @@ body{
     background-color: black;
 }
 
-@media screen and (max-width:768px) {
-    body{
-        font-size: small;
-    }
-    .quadro{
-        width:70%
-    }
-}
-@media screen and (max-width:1360px) {
-    body{
-        font-size: small;
-    }
-}
-
 .titulo{
     color: yellow;
     font-family: cursive;
@@ -105,3 +91,79 @@ body{
     color: yellow;
 }
 
+@media screen and (max-width:1360px) {
+   
+    .titulo{
+        font-size: 30pt;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+    .pergunta{
+        font-size: 28pt;
+    }
+
+    .quadro{
+        width: 80%;
+        height: 65%;
+        left: 10%;
+        top: 17%;
+    }
+
+    .opcao{
+        font-size: 25pt;
+        top: 10%;
+    }
+
+    .iniciar , .proximo , .tentarNovamente{
+        width: 80%;
+        height: 8%;
+        left: 10%;
+        top: 87%;
+        font-size: 25pt;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    body{
+        font-size:smaller;
+        background-color: aqua
+    }
+   
+    .titulo{
+        font-size: 50pt;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+    .pergunta{
+        font-size: 40pt;
+        margin: 3%;
+    }
+
+    .quadro{
+        width: 80%;
+        height: 65%;
+        left: 10%;
+        top: 17%;
+    }
+
+    .opcao{
+        font-size: 35pt;
+        top: 15%;
+        line-height: 60pt;
+    }
+
+    .iniciar , .proximo , .tentarNovamente{
+        width: 80%;
+        height: 8%;
+        left: 10%;
+        top: 87%;
+        font-size: 40pt;
+        
+    }
+    
+}
